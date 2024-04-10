@@ -1,0 +1,101 @@
+@charset "UTF-8" ;
+@font-face {
+    font-family: 'comic';
+    src: url(i_hate_comic_sans/IHATCS__.TTF);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 2em;
+}
+
+header > p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color:gray
+}
+
+section {
+    font-weight: bold;
+    font-family: comic;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 25px;
+}
+
+section > p {
+    padding-bottom: 1em;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgb(70, 70, 70);
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section.imagem > p  {
+    background-color: rgba(49, 49, 49, 0.507);
+    width: 300px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+section.imagem2 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.534);
+    background-attachment: fixed;
+}
+
+section.imagem2 > p {
+    background-color: rgba(49, 49, 49, 0.507);
+    width: 300px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    background;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 25px;
+}
